@@ -1,5 +1,8 @@
 ---
- - hosts: windows
+
    tasks:
    - name: Test Ansible WinRM connectivity
      win_ping:
+   
+   - name: run test script
+     script: upgrade_to_ps3.ps1
