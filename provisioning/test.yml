@@ -1,4 +1,5 @@
 ---
-  tasks:
-  - name: run test script
-    script: upgrade_to_ps3.ps1
+  -host: windows
+   tasks:
+   - name: run test script
+     script: upgrade_to_ps3.ps1
