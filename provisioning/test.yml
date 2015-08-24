@@ -1,6 +1,6 @@
 ---
   - name: test script module
-    hosts: windows
+    hosts: all
     tasks:
     - name: run test script
       script: upgrade_to_ps3.ps1
